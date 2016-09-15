@@ -18,6 +18,8 @@
 
 ## CSS Style Guide
 
+## CSS Naming
+
 - Name classes and IDs based on their purpose in the page
 ~~~~~~~CSS
 /* Wrong */
@@ -44,6 +46,8 @@
 .section-box {}
 ~~~~~~
 
+## CSS Values
+
 - Use shorthand whenever possible
 ~~~~~~CSS
 /* Wrong */
@@ -69,6 +73,8 @@
 /* Correct */
 .box { padding: 0; }
 ~~~~~~
+
+## Code Organization
 
 - Group related declarations and separate using line breaks
 ~~~~~~CSS
@@ -98,4 +104,13 @@
 
 /* Correct */
 .box { padding: 0; }
+~~~~~~
+
+- Always leave a space between the selector and the opening bracket
+~~~~~~CSS
+/* Wrong */
+.box{}
+
+/* Correct */
+.box {}
 ~~~~~~
