@@ -1,6 +1,7 @@
 # HTML/CSS Style Guide
 *Note: These loosely follow the style guide created by [Google](https://google.github.io/styleguide/htmlcssguide.xml)*
 
+
 ## HTML Style Guide
 
 - Use lowercase only
@@ -16,7 +17,24 @@
 - Use 2 spaces to indent
 - Attributes should be enclosed in double quotations ""
 
+- If you are going to use more than 2 attributes, indent them
+~~~~~~HTML
+<!-- Wrong -->
+<div class="box" id="related" data-scroll="true" style="padding:0;">
+</div>
+
+<!-- Correct -->
+<div class="box"
+     id="related"
+     data-scroll="true"
+     style="padding:0;">
+</div>
+~~~~~~
+- As much as possible, avoid having to add the `style` attribute inside your HTML
+
 ## CSS Style Guide
+
+### CSS Naming
 
 - Name classes and IDs based on their purpose in the page
 ~~~~~~~CSS
@@ -44,6 +62,8 @@
 .section-box {}
 ~~~~~~
 
+### CSS Values
+
 - Use shorthand whenever possible
 ~~~~~~CSS
 /* Wrong */
@@ -69,6 +89,8 @@
 /* Correct */
 .box { padding: 0; }
 ~~~~~~
+
+### Code Organization
 
 - Group related declarations and separate using line breaks
 ~~~~~~CSS
@@ -98,4 +120,13 @@
 
 /* Correct */
 .box { padding: 0; }
+~~~~~~
+
+- Always leave a space between the selector and the opening bracket
+~~~~~~CSS
+/* Wrong */
+.box{}
+
+/* Correct */
+.box {}
 ~~~~~~
