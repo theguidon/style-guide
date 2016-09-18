@@ -120,5 +120,9 @@ var foo = function(longArgument1,
 }
 ~~~~~~
 
-- When using ternary operators, put on the next line when the expression does not fit 80 chararcters.
-- When method chaining, trail the dot when the line does not fit 80 characters.
+- When method chaining, put the next function on the next line and trail the dot
+~~~~~~JS
+var foo = ready().
+          set().
+          go();
+~~~~~~
