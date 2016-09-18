@@ -120,9 +120,9 @@ var foo = function(longArgument1,
 }
 ~~~~~~
 
-- When method chaining, put the next function on the next line and trail the dot
+- When method chaining, put the next function on the next line and put the dot at the beginning
 ~~~~~~JS
-var foo = ready().
-          set().
-          go();
+var foo = ready()
+          .set()
+          .go();
 ~~~~~~
