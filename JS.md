@@ -71,7 +71,7 @@ var bar = {
 - Use 2 spaces for indentation
 - Remove trailing spaces
 - Limit your line to 80 characters
-- No spaces inside no spaces inside grouping symbols: [], (), {}
+- No spaces inside grouping symbols: [], (), {}
 - No space before opening parenthesis in function declarations
 - If object and array initializations are within 80 characters, keep them inline.
 - If object and array initializations must span multiple lines, use 2 spaces to indent.
