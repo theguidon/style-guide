@@ -3,7 +3,7 @@
 ## Language Usage
 
 - Always use semicolons
-- Use ALL CAPS for contstants
+- Use ALL CAPS for constants 
 ~~~~~~JS
 /* Wrong */
 var easing_constant = 0.4;
